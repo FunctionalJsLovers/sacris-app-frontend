@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Saludos cordiales al microfono de cesar&nbsp;
+          Saludos cordiales al microfono de cesar y a sichaca&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
