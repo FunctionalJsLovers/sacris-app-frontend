@@ -1,0 +1,30 @@
+.map-container {
+    background-color: #1e1e1e;
+    height: 500px;
+    top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapBox {
+    position: relative;
+    border: 2px solid #fc270e;
+    padding: 45px;
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: #1e1e1e;
+}
+
+
+.mapTitle {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background-color: #1e1e1e;
+    padding: 0 10px;
+    font-family: sans-serif, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
