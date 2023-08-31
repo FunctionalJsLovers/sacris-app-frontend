@@ -1,0 +1,73 @@
+.imageCarousel {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.carouselContent {
+    position: relative;
+    display: inline-block;
+    border: 2px solid transparent;
+    box-shadow: 0 0 20px #fc270e;
+}
+
+.carouselArrow {
+    position: absolute;
+    top: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.carouselArrow:hover {
+    visibility: visible;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.leftArrow {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.rightArrow {
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.carouselIndicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carouselIndicator {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #004063;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carouselIndicator.active {
+    background-color: black;
+}
+
+.imageCarousel:hover .carouselArrow {
+    visibility: visible;
+    opacity: 1;
+}
+
+

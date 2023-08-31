@@ -1,5 +1,9 @@
-.map-container {
-    background-color: #1e1e1e;
+.p {
+    font-family: sans-serif;
+}
+
+.mapContainer {
+    background-color: transparent;
     height: 500px;
     top: -15px;
     display: flex;
@@ -17,6 +21,10 @@
     background-color: #1e1e1e;
 }
 
+.mapBox:hover {
+    border-color: transparent;
+    box-shadow: 0 0 20px #fc270e;
+}
 
 .mapTitle {
     position: absolute;

@@ -1,15 +1,10 @@
-import NavBar from "@/components/NavBar";
-import  '../styles/globals.css';
-import Testimonials from "@/components/Testimonials";
-import AboutUs from "@/components/AboutUs";
-import Map from "@/components/Map";
 
-export default function Home() {
+import './page.module.css'
+import HomePage from "@/app/home/page";
+export default function App() {
   return (
-      <div className="all">
-          <NavBar/>
-          <Testimonials/>
-          <AboutUs/>
+      <div id="all">
+          <HomePage/>
       </div>
   )
 }
