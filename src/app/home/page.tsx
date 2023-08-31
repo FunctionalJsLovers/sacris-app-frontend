@@ -23,7 +23,7 @@ export default function HomePage() {
             <ImageCarousel images={images}/>
             <Testimonials/>
             <AboutUs/>
-            <Map/>
+            {/*<Map/>*/}
             <Footer/>
         </div>
     )
