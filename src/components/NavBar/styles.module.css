@@ -47,7 +47,7 @@
 @media (max-width: 768px) {
     .nav-list {
         flex-direction: column;
-        text-align: center; /* Centra los elementos en dispositivos móviles */
+        text-align: center;
     }
 
     .logo {
@@ -90,6 +90,7 @@
     height: 2px;
     background-color: #fc270e;
     bottom: 40px;
+    z-index: 1;
 }
 
 .logo {
