@@ -8,9 +8,9 @@ const Testimonials = () => {
             <div className={styles.allHeader}>
                 <nav>
                     <ul className={styles.navList}>
-                        <li><a href="sacris-app-frontend/src/components#">Artistas</a></li>
-                        <li><a href="sacris-app-frontend/src/components#">Tienda</a></li>
-                        <div className={styles.logo}><a href="sacris-app-frontend/src/components"><Image src="/images/Logo2.png" alt="" width="100" height="100"></Image></a> </div>
+                        <li><a href="/home">Artistas</a></li>
+                        <li><a href="/shop">Tienda</a></li>
+                        <div className={styles.logo}><a href="/home"><Image src="/images/Logo2.png" alt="" width="100" height="100"></Image></a> </div>
                         <li><a href="sacris-app-frontend/src/components#">FAQ</a></li>
                         <li><a href="sacris-app-frontend/src/components#">Contacto</a></li>
                     </ul>
