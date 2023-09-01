@@ -1,5 +1,5 @@
 import NavBar from "@/components/NavBar/NavBar";
-import styles from './page.module.css';
+import styles from './styles.module.css';
 import Head from 'next/head';
 import Testimonials from "@/components/Testimonials/Testimonials";
 import AboutUs from "@/components/AboutUs/AboutUs";
@@ -23,7 +23,7 @@ export default function HomePage() {
             <ImageCarousel images={images}/>
             <Testimonials/>
             <AboutUs/>
-            {/*<Map/>*/}
+            {/*<Map/> Wtf con el mapa que le pasa*/}
             <Footer/>
         </div>
     )
