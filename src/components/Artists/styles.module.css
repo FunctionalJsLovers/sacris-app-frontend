@@ -98,3 +98,85 @@
     bottom: 0;
     left: 0;
 }
+
+@media (max-width: 750px) {
+    .artists {
+        margin: 40px 20px 10px 10px;
+        padding: 10px;
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    .left, .left2, .right, .right2 {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .socialMedia {
+        margin-top: 30px;
+    }
+
+    .socialMedia img {
+        width: 30px;
+        height: 30px;
+        margin: 0 15px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 5px 10px;
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .artists {
+        margin: 20px 20px 10px 10px;
+        padding: 10px;
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    .left, .left2, .right, .right2 {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .socialMedia {
+        margin-top: 30px;
+    }
+
+    .socialMedia img {
+        width: 30px;
+        height: 30px;
+        margin: 0 15px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 5px 10px;
+        width: auto;
+        height: auto;
+    }
+
+}

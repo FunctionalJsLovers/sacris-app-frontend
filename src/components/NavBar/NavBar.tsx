@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './styles.module.css';
 import Image from "next/image";
-import Link from 'next/link'
-const Testimonials = () => {
+
+const NavBar = () => {
 
     return (
         <header className={styles.Header}>
@@ -21,4 +21,4 @@ const Testimonials = () => {
         </header>
     )
 }
-export default Testimonials;
+export default NavBar;

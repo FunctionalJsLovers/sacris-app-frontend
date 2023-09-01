@@ -97,3 +97,25 @@
     bottom: -550px;
     z-index: 2;
 }
+
+
+@media (max-width: 650px) {
+    .navList {
+        margin-top: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 10px 0;
+    }
+
+    .navList li {
+        margin: 5px 0;
+    }
+
+    .line {
+        position: relative;
+        bottom: 3px;
+    }
+}

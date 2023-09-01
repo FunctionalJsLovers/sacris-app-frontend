@@ -11,7 +11,7 @@ const AboutUs = () => {
                 </div>
                 <div className={styles.content}>
                     <div className={styles.logoAbout}>
-                        <Image src="/images/Logo2.png" alt="Logo SacrisInk" width={200} height={200}></Image>
+                        <Image src="/images/Logo2.png" alt="Logo SacrisInk" width={200} height={200} className={styles.logoImage}></Image>
                     </div>
                     <div className={styles.textAbout}>
                         <p>SacrisInk. es un estudio de tatuajes con sede única en Tunja, Boyacá, el cual tiene como principal objetivo

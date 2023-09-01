@@ -30,7 +30,7 @@ const ImageCarousel: React.FC<ImageCarouselProps> = ({ images }) => {
         <div className={styles.imageCarousel}>
             <div>
                 <div className={styles.carouselContent}>
-                    <img
+                    <img className={styles.image}
                         src={images[currentImageIndex]}
                         alt={`Image ${currentImageIndex}`}
                         width="800"
