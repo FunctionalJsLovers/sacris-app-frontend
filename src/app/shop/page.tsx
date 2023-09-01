@@ -2,7 +2,7 @@ import axios from 'axios';
 import Image from 'next/image';
 import NavBar from '@/components/NavBar/NavBar';
 import styles from  './pageShop.module.css';
-import style from  '@/app/home/page.module.css';
+import style from  '@/app/home/styles.module.css';
 import Footer from "@/components/Footer/Footer";
 
 
