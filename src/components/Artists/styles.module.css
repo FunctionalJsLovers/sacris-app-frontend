@@ -1,0 +1,182 @@
+.artists {
+    display: flex;
+    margin: 100px 0 100px 100px;
+    padding: 20px;
+    width: 85%;
+    align-items: flex-start;
+    box-shadow: 0 0 20px #fC270E;
+}
+
+.left {
+    flex: 1;
+    border-right: 1px solid #FC5B0B;
+    padding-right: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.left2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right2 {
+    flex: 1;
+    border-left: 1px solid #FC5B0B;
+    padding-left: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.right2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.name {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.socialMedia img {
+    margin: 0 25px;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 25px;
+    width: 100px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #fC270E;
+    bottom: 0;
+    left: 0;
+}
+
+@media (max-width: 750px) {
+    .artists {
+        margin: 40px 20px 10px 10px;
+        padding: 10px;
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    .left, .left2, .right, .right2 {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .socialMedia {
+        margin-top: 30px;
+    }
+
+    .socialMedia img {
+        width: 30px;
+        height: 30px;
+        margin: 0 15px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 5px 10px;
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .artists {
+        margin: 20px 20px 10px 10px;
+        padding: 10px;
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    .left, .left2, .right, .right2 {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .socialMedia {
+        margin-top: 30px;
+    }
+
+    .socialMedia img {
+        width: 30px;
+        height: 30px;
+        margin: 0 15px;
+    }
+
+    .button {
+        font-size: 16px;
+        padding: 5px 10px;
+        width: auto;
+        height: auto;
+    }
+
+}

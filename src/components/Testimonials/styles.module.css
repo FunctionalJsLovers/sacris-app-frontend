@@ -1,0 +1,29 @@
+.testimonials {
+    background-color: transparent;
+    height: 300px;
+    top: -15px;
+}
+.testimonialsBox {
+    position: relative;
+    border: 2px solid #fc270e;
+    padding: 20px;
+    margin: 20px;
+    height: 260px;
+    background-color: #1e1e1e;
+}
+
+.testimonialsBox:hover {
+    border-color: transparent;
+    box-shadow: 0 0 20px #fc270e; /* Sombra roja luminosa */
+}
+
+.testimonialsTitle {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background-color: #1e1e1e;
+    padding: 0 10px;
+    font-family: sans-serif, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
