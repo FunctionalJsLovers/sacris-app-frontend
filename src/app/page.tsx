@@ -6,8 +6,8 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Test jira automation&nbsp;
-          <code className={styles.code}>JiraAutomation</code>
+          Saludos cordiales al microfono de cesar y a sichaca&nbsp;
+          <code className={styles.code}>src/app/page.tsx</code>
         </p>
         <div>
           <a
@@ -49,7 +49,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>AUTOMATINO JIRA</p>
+          <p>Find in-depth information about Next.js features and API.</p>
         </a>
 
         <a
