@@ -7,7 +7,7 @@
 }
 
 .sectionTitle {
-    font-family: UnifrakturMaguntia, sans-serif;
+    font-family: var(--font), sans-serif;
     font-size: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -40,16 +40,16 @@
 }
 
 .addressInfo h3 {
-    font-family: UnifrakturMaguntia, sans-serif;
-    font-size: 30px;
+    font-family: var(--font), sans-serif;
+    font-size: 40px;
     color: #FCB70B;
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
 .addressInfo p {
-    font-family: UnifrakturMaguntia, sans-serif;
-    font-size: 30px;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px;
 }
 
 .address,

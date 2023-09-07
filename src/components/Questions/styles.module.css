@@ -8,7 +8,7 @@
 
 .question {
     margin: 20px 24px;
-    font-family: UnifrakturMaguntia, sans-serif;
+    font-family: var(--font), sans-serif;
     font-size: 22px;
     background-image: linear-gradient(10deg, #FFFFFF, #FCB70B);
     -webkit-background-clip: text;
@@ -18,7 +18,7 @@
 
 .answer {
     margin: 5px 20px;
-    font-family: Calibri, sans-serif;
+    font-family: "Times New Roman", sans-serif;
     font-size: 22px;
     color: white;
     text-align: justify;

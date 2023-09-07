@@ -22,9 +22,8 @@
 }
 
 .titleSection {
-    font-family: UnifrakturMaguntia, sans-serif;
-    color: #852727;
-    -webkit-text-stroke: 0.2px #FCB70B;
+    font-family: var(--font), sans-serif;
+    color: #FCB70B;
     font-size: 40px;
     margin: 0;
     padding: 20px;

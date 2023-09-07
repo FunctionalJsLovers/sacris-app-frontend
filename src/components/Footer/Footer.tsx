@@ -9,9 +9,9 @@ const Footer = () => {
                 <div className={styles.footerContainer}>
                     <ul className={styles.ListF}>
                         <li>
-                            <a className={styles.a}><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/3833/3833751.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" />111 111 111</a></li>
+                            <a className={styles.a}><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/3833/3833751.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" />3209756105</a></li>
                         <li>
-                            <a className={styles.a}><Image className={styles.Imgen} src="https://cdn-icons-png.flaticon.com/128/3526/3526381.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" />sacrisink@gmail.com</a></li>
+                            <a className={styles.a}><Image className={styles.Imagen} src="https://cdn-icons-png.flaticon.com/128/3526/3526381.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" />sacrisink@gmail.com</a></li>
                     </ul>
                 </div>
 
