@@ -1,44 +1,37 @@
 import React from 'react';
 import styles from './styles.module.css';
+import Image from 'next/image';
 
 const Footer = () => {
     return (
         <footer>
             <div className={styles.allFooter}>
                 <div className={styles.footerContainer}>
-                    <div className={styles.footerContentContainer}>
-                        <h3 className={styles.websiteLogo}>SacrisInk</h3>
-                        <span className={styles.footerInfo}>111 111 111</span>
-                        <span className={styles.footerInfo}>sacrisink@gmail.com</span>
-                    </div>
-                    <div className={styles.footerMenus}>
-                        <div className={styles.footerContentContainer}>
-                            <span className={styles.menuTitle}>ofrecemos</span>
-                            <a href="" className={styles.menuItemFooter}>Tatuajes</a>
-                            <a href="" className={styles.menuItemFooter}>Cursos</a>
-                            <a href="" className={styles.menuItemFooter}>Piercings</a>
-                        </div>
-                        <div className={styles.footerContentContainer}>
-                            <span className={styles.menuTitle}>secciones</span>
-                            <a href="" className={styles.menuItemFooter}>Artistas</a>
-                            <a href="" className={styles.menuItemFooter}>Tienda</a>
-                            <a href="" className={styles.menuItemFooter}>FAQ</a>
-                            <a href="" className={styles.menuItemFooter}>Contactos</a>
-                        </div>
-                    </div>
+                    <ul className={styles.ListF}>
+                        <li>
+                            <a className={styles.a}><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/3833/3833751.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" />111 111 111</a></li>
+                        <li>
+                            <a className={styles.a}><Image className={styles.Imgen} src="https://cdn-icons-png.flaticon.com/128/3526/3526381.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" />sacrisink@gmail.com</a></li>
+                    </ul>
+                </div>
 
-                    <div className={styles.footerContentContainer}>
-                        <span className={styles.menuTitle}>Contactanos</span>
-                        <div className={styles.socialContainer}>
-                            <a href="" className={styles.socialLink}></a>
-                            <a href="" className={styles.socialLink}></a>
-                            <a href="" className={styles.socialLink}></a>
-                        </div>
-                    </div>
+                <div className={styles.socialContainer}>
+                    <ul className={styles.List}>
+                        <li>
+                            <a><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" /></a>
+                        </li>
+                        <li>
+                            <a><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" /></a>
+                        </li>
+                        <li>
+                            <a><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" /></a>
+                        </li>
+                    </ul>
                 </div>
-                <div className={styles.copyrightContainer}>
-                    <span className={styles.copyright}>Copyright 2023, SacrisApp. All rights reserved.</span>
-                </div>
+
+            </div>
+            <div className={styles.copyrightContainer}>
+                <span className={styles.copyright}>Copyright 2023, SacrisApp. FunctionalJsDev</span>
             </div>
         </footer>
     );

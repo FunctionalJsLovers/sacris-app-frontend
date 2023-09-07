@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia');
+
 .header {
-    background-color: #1E1E1E;
+    background-color: red;
     opacity: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: red;
     padding: 10px 0;
     position: relative;
 }
 
+.color {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .allHeader {
-    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 50px 150px;
+    width: auto;
+    text-align: center;
+    padding: 20px;
 }
 .navList {
     list-style: none;
@@ -26,16 +35,17 @@
     bottom: 20px;
 }
 
-.navList li a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 22px;
+.navList li a{
+    font-family: UnifrakturMaguntia, sans-serif;
+    -webkit-text-stroke: 1px #111111;
+    color: #FCB70B;
+    font-size: 40px;
     padding: 10px 20px;
-    transition: background-color 0.3s ease;
 }
 
 .navList li a:hover {
-    background-color: #555;
+    font-size: 45px;
+    -webkit-text-stroke: 1px #852727;
 }
 
 .logo {
@@ -45,9 +55,14 @@
 
 
 @media (max-width: 768px) {
+    .allHeader {
+        align-items: center;
+    }
+
     .nav-list {
         flex-direction: column;
         text-align: center;
+        justify-content: center;
     }
 
     .logo {
@@ -66,31 +81,6 @@
 .navList li a {
     position: relative;
     display: inline-block;
-}
-
-.navList li a::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 5px;
-    background-color: #FC5B0B;
-    bottom: -3px;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease, bottom 0.3s ease;
-}
-
-.navList li a:hover:after {
-    opacity: 1;
-}
-
-.line {
-    position: relative;
-    width: calc(100%);
-    height: 2px;
-    background-color: #fc270e;
-    bottom: 40px;
-    z-index: 1;
 }
 
 .logo {

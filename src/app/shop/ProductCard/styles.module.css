@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia');
+
+.card {
+  max-width: 100%;
+  height: auto;
+  margin: 2%;
+  padding: 40px;
+}
+.img{
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center
+}
+
+.h2 {
+  font-size: 1.5rem;
+  margin-top: 8px;
+  color: #FCB70B;
+  font-family: UnifrakturMaguntia, sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.p {
+  color: azure;
+  text-align: center;
+
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .card {
+    display: flexbox;
+    text-align: center;
+
+
+  }
+}
