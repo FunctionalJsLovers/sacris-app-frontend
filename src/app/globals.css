@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/mind-rescue-personal-use');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -38,6 +40,7 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+  --font: Mind Rescue Personal Use;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -70,6 +73,7 @@
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
+    --font: Mind Rescue Personal Use;
   }
 }
 
