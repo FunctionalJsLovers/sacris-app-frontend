@@ -1,5 +1,5 @@
 
-import NavBar from '@/components/NavBar/NavBar';
+import NavBar from '@/components/NavBar/Navbar';
 import styles from  './pageShop.module.css';
 import Footer from "@/components/Footer/Footer";
 import data from './ProductCard/data.json'; 
