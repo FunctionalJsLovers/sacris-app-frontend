@@ -41,6 +41,7 @@
     font-size: 24px;
     font-weight: bold;
     margin-right: 10px;
+    color:#ffff;
 }
 
 .ig {
@@ -57,6 +58,7 @@
     border: 2px solid #0070f3;
     border-radius: 20px;
     margin-right: 5px;
+    color: #ffff;
 }
 
 .dot {
@@ -73,6 +75,7 @@
     font-size: 16px;
     line-height: 1.5;
     text-align: justify;
+    color: #ffff;
 }
 
 .actions {

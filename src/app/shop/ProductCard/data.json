@@ -1,0 +1,22 @@
+[    
+    {
+    "id":1,
+    "imagen":"https://t2.gstatic.com/images?q=tbn:ANd9GcTQjfdzKFSTo5uORtqr06swHm0muip-wXqxbo1WyfawxXYUL42r",
+    "titulo":"Cremas hidratantes",
+    "descripcion":"Estas cremas sirven para que tu tatuaje tenga un buen proceso de cicatrización, buscando que la calidad de trabajo se mantenga a futuro"
+    },
+
+    {
+        "id":2,
+        "imagen":"https://m.media-amazon.com/images/I/71uXhwtb2DL._AC_SL1001_.jpg",
+        "titulo":"Parches - saniderm",
+        "descripcion":"Estos parches son una buena opción para tu proceso de cicatrizado, solo necesitas aplicarlos y esperar a que tu trabajo sane con el tiempo"
+        },
+        {
+            "id":3,
+            "imagen":"https://instagram.feoh1-1.fna.fbcdn.net/v/t51.2885-15/362052446_824920722699843_6401517884760665668_n.jpg?stp=dst-jpg_e35_s1080x1080&_nc_ht=instagram.feoh1-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=5HmJ-wtJBdcAX9AEWg2&edm=AGenrX8BAAAA&ccb=7-5&oh=00_AfBYmuWAMy3Eh1n_gHeRIzs0mxw8vDKBwK7bJOXhZ7ZqQA&oe=64FE486C&_nc_sid=ed990e",
+            "titulo":"Joyas para piercings",
+            "descripcion":"Te ofrecemos todo tipo de joyas para tus perforaciones. Te ayudamos a ponerlas, sin preocupaciones."
+            }
+    
+    ]

@@ -23,3 +23,7 @@
     color: white;
     text-align: justify;
 }
+
+@media (max-width: 768px) {
+   
+}
