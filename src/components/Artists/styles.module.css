@@ -1,0 +1,120 @@
+.allArtists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: -150px;
+}
+
+.artist {
+    display: flex;
+    align-items: flex-start;
+    max-width: 85%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.left {
+    flex: 1;
+}
+
+.artistImage {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.right {
+    flex: 2;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.ig {
+    width: 30px;
+    height: 30px;
+}
+
+.category {
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    font-size: 14px;
+    border: 2px solid #0070f3;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+
+.dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #0070f3;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.actions {
+    margin-top: 40px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter, sans-serif;
+}
+
+.buttonPor {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FCB70B;
+    color: #111111;
+    border: none;
+}
+
+.buttonAgen {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #C72424;
+    color: #111111;
+    border: none;
+}
+
+.artistLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 85%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.artistRight {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    width: 85%;
+    padding: 20px;
+    margin-top: 20px;
+}
+

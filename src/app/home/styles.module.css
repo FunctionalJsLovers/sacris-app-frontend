@@ -1,0 +1,9 @@
+.firstPart {
+    background-image: url("local.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.picture {
+    height: 400px;
+}

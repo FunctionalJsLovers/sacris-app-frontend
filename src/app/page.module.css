@@ -1,3 +1,7 @@
+.all {
+  background-image: url("https://th.bing.com/th/id/OIP.j463KhhOLyj7Gge0DZ92iQHaE8?pid=ImgDet&rs=1");
+}
+
 .main {
   display: flex;
   flex-direction: column;

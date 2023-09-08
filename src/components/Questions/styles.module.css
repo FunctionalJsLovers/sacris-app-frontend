@@ -1,0 +1,25 @@
+.allQuestions {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg?w=826&t=st=1693887304~exp=1693887904~hmac=a2f60d99f4fcb5e3d6558ad80cc5f0d3b00a99eeee7b56c1a2b5e439e09fc4a9");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.question {
+    margin: 20px 24px;
+    font-family: var(--font), sans-serif;
+    font-size: 22px;
+    background-image: linear-gradient(10deg, #FFFFFF, #FCB70B);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+.answer {
+    margin: 5px 20px;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 22px;
+    color: white;
+    text-align: justify;
+}
