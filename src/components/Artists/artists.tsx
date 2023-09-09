@@ -14,17 +14,25 @@ const Artists = () => {
         "NeoTradicional": "#ff5722",
         "Realismo Color": "#3ED44D",
         "Comic": "#F21D43",
+        "Blackwork": "#D1CE16",
+        "Freehand": "#1455A3",
+        "Sombras": "#C7C2AE",
+        "Minimalismo": "#38A376",
+        "Color": "#F23499",
+        "Cartoon": "#872608",
+        "Surrealismo": "#D4BF9E",
+        "Black and grey" : "#C7B5D4"
     };
 
 
     return (
         <div className={styles.allArtists}>
-            {artistsData.map((artist, index) => (
+            {artistsData.artists.map((artist, index) => (
                 <div className={index % 2 === 0 ? styles.artistLeft : styles.artistRight} key={index}>
                     <div className={styles.left}>
                         <div className={styles.artistImage}>
                             <Image
-                                src={artist.image}
+                                src={artist.profilePicture}
                                 alt={artist.name}
                                 width={400}
                                 height={400}
