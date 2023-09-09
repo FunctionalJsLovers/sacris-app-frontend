@@ -31,11 +31,11 @@ const Artists = () => {
                 <div className={index % 2 === 0 ? styles.artistLeft : styles.artistRight} key={index}>
                     <div className={styles.left}>
                         <div className={styles.artistImage}>
-                            <Image
+                            <img
                                 src={artist.profilePicture}
                                 alt={artist.name}
-                                width={400}
-                                height={400}
+                                width={100}
+                                height={100}
                             />
                         </div>
                     </div>

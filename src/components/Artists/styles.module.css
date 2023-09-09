@@ -20,9 +20,9 @@
     flex: 1;
 }
 
-.artistImage {
-    width: auto;
-    height: auto;
+.artistImage img{
+    width: 400px;
+    height: 400px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -116,4 +116,68 @@
     width: 85%;
     padding: 20px;
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .artist {
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .artistImage img{
+        position: relative;
+        top: 100px;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: contain;
+    }
+
+    .right {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .name {
+        font-size: 18px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .category {
+        margin-top: 10px;
+        padding: 2px 8px;
+        font-size: 12px;
+    }
+
+    .dot {
+        width: 6px;
+        height: 6px;
+        margin-right: 6px;
+    }
+
+    .description {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .actions {
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .buttonPor, .buttonAgen {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
 }

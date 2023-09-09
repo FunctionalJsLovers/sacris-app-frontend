@@ -29,3 +29,24 @@
     padding: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .firstPart {
+        height: 400px;
+    }
+
+    .titleSection {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .firstPart {
+        height: 900px;
+    }
+
+    .titleSection {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+}
