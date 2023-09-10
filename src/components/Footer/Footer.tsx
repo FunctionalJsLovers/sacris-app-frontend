@@ -18,13 +18,13 @@ const Footer = () => {
                 <div className={styles.socialContainer}>
                     <ul className={styles.List}>
                         <li>
-                            <a><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" /></a>
+                            <a href="https://www.facebook.com/sacrisInk" target="_blank"><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" /></a>
                         </li>
                         <li>
-                            <a><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" /></a>
+                            <a href="https://www.instagram.com/sacrisink/" target="_blank"><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" /></a>
                         </li>
                         <li>
-                            <a><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" /></a>
+                            <a href="https://www.youtube.com/sacrisink" target="_blank"><Image className={styles.Img} src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="" width="50" height="50" sizes="(max-width: 768px) 100vw, (max-width:1200px)50vw,33vw" /></a>
                         </li>
                     </ul>
                 </div>

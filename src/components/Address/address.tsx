@@ -1,13 +1,39 @@
+'use client';
 import React from 'react';
-import styles from './styles.module.css'; // Importa el archivo de estilos modular
-
+import { GoogleMap, LoadScript, Marker} from '@react-google-maps/api';
+import styles from './styles.module.css';
 const Address: React.FC = () => {
+    const mapStyles = {
+        width: '100%',
+        height: '400px',
+    };
+
+    const defaultCenter = { lat: 5.54473748855918, lng: -73.35635419118616};
+    const siteName = 'SacrisInk';
+
     return (
         <div className={styles.addressSection}>
             <h2 className={styles.sectionTitle}>Encuéntranos</h2>
             <div className={styles.addressContent}>
-                <div className={styles.mapImage}>
-                    <img src="/images/Map.png" alt="Mapa" />
+                <div className={styles.mapContainer}>
+                    <LoadScript googleMapsApiKey="AIzaSyARSQJX-2INcLDyJ62AURJwRUTSizD4T1c">
+                        <GoogleMap
+                            mapContainerStyle={mapStyles}
+                            zoom={18}
+                            center={defaultCenter}
+                        >
+                            <Marker
+                                position={defaultCenter}
+                                label = {{
+                                    text: siteName,
+                                    fontSize: '15px',
+                                    fontWeight: 'bold',
+                                    color: 'black'
+                                }}
+                            >
+                            </Marker>
+                        </GoogleMap>
+                    </LoadScript>
                 </div>
                 <div className={styles.addressInfo}>
                     <div className={styles.address}>

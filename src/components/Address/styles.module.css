@@ -10,7 +10,7 @@
     font-family: var(--font), sans-serif;
     font-size: 50px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #FCB70B;
 }
 
@@ -20,9 +20,11 @@
     align-items: flex-start;
 }
 
-.mapImage {
+.mapContainer {
     flex: 1;
     max-width: 50%;
+    position: relative;
+    left: 100px;
     margin-right: 20px;
 }
 
@@ -37,6 +39,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    position: relative;
+    bottom: 35px;
+    left: 250px;
 }
 
 .addressInfo h3 {
@@ -45,11 +50,13 @@
     color: #FCB70B;
     margin-top: 5%;
     margin-bottom: 5%;
+    text-align: left;
 }
 
 .addressInfo p {
     font-family: "Times New Roman", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: left;
 }
 
 .address,
@@ -67,16 +74,72 @@
     margin: 0;
 }
 
+@media screen and (max-width: 850px) {
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    .mapContainer {
+        position: relative;
+        flex: 1;
+        max-width: none;
+        min-width: 300px;
+        margin: 0 auto;
+        left: 10%;
+    }
+
+    .addressInfo {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        order: 1;
+        bottom: 38px;
+        left: 20%;
+    }
+
+    .addressInfo h3 {
+        font-size: 1.5rem;
+    }
+
+    .addressInfo p {
+        font-size: 1.2rem;
+    }
+}
+
+
 @media screen and (max-width: 630px) {
     .sectionTitle {
         font-size: 2rem;
     }
 
+    .addressContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapContainer {
+        position: relative;
+        flex: 1;
+        max-width: none;
+        min-width: 300px;
+        margin: 0 auto;
+        left: 1%;
+    }
+
+    .addressInfo {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        order: 1;
+        top: 15px;
+        left: 5%;
+    }
+
     .addressInfo h3 {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
     .addressInfo p {
-        font-size: 15px;
+        font-size: 1.2rem;
     }
 }
