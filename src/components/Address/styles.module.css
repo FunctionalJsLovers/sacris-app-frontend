@@ -20,9 +20,11 @@
     align-items: flex-start;
 }
 
-.mapImage {
+.mapContainer {
     flex: 1;
     max-width: 50%;
+    position: relative;
+    left: 50px;
     margin-right: 20px;
 }
 

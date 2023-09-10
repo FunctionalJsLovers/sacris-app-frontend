@@ -5,8 +5,14 @@ import Image from "next/image";
 
 
 function NavBar() {
-    return (
 
+    const openWhatsAppChat = () => {
+        const phoneNumber = '573209756105';
+        const whatsAppURL = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
+        window.open(whatsAppURL);
+    }
+
+    return (
         <header className={styles.Header}>
             <div className={styles.color}>
                 <div className={styles.allHeader}>
@@ -16,7 +22,7 @@ function NavBar() {
                             <li><a href="/shop">Tienda</a></li>
                             <div className={styles.logo}><a href="/home"><Image src="/images/Logo.png" alt="" width="100" height="100" className={styles.logoImage}></Image></a> </div>
                             <li><a href="/faq">FAQ</a></li>
-                            <li><a href="sacris-app-frontend/src/components#">Contacto</a></li>
+                            <li><a onClick={openWhatsAppChat}>Contacto</a></li>
                         </ul>
                         <div className={styles.line}></div>
                     </nav>
