@@ -93,6 +93,7 @@
     background-color: #FCB70B;
     color: #111111;
     border: none;
+    cursor: pointer;
 }
 
 .buttonAgen {
@@ -101,6 +102,7 @@
     background-color: #C72424;
     color: #111111;
     border: none;
+    cursor: pointer;
 }
 
 .artistLeft {
