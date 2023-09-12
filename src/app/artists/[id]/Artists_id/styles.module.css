@@ -1,17 +1,21 @@
 .allArtists {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 30px;
 }
 
 .left {
-    flex: 1;
+    text-align: center;
 }
-
+.artistImage{
+    padding: 30px;
+}
 .right {
     flex: 2;
-    padding: 20px;
+    padding: 100px;
+    text-align: left;
+    margin-top: 0px;
 }
 
 .name {
@@ -22,6 +26,8 @@
     font-family: var(--font), sans-serif;
     color: #C72424;
     text-shadow: 0px 4px 4px #FCB70B;
+    margin-top: -150px;
+
 }
 
 .category {
@@ -39,7 +45,7 @@
 
 .description {
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
     text-align: justify;
     color: #FFFFFF;
@@ -49,7 +55,7 @@
 .nick {
     margin-top: 10px;
     font-family: var(--font), sans-serif;
-    font-size: 40px;
+    font-size: 52px;
     color: #C72424;
     text-shadow: 0px 1px 1px #FCB70B;
 }
@@ -86,7 +92,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
 }
 
@@ -101,8 +107,9 @@
     text-shadow: 0px 2px 3px #FCB70B;
     text-align: center;
 
-
-
+}
+.tattoo_images h1{
+    text-align: left;
 }
 
 .tattooimg {
@@ -117,6 +124,9 @@
         display: grid;
         justify-content: center;
 
+    }
+    .right{
+        padding: auto;
     }
     .name{
         font-size: 80px;

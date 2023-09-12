@@ -26,6 +26,8 @@ const ArtistPage: React.FC = () => {
   return (
     <div className={st.all}>
           <NavBar></NavBar>
+                <div className={st.picture}></div>
+
       <ArtistProfile artist={artist} />
         <Footer></Footer>
     </div>

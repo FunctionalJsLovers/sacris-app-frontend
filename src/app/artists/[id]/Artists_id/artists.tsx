@@ -53,25 +53,34 @@ const ArtistProfile: React.FC<ArtistProfileProps> = ({ artist }) => {
         </div>
         <div className={styles.right}>
         {artist.categories.map((category, i) => (
-                            <div className={styles.category} key={i} style={{ borderColor:                categoryColors[category] }}>
+                            <div className={styles.category} key={i} style={{ borderColor: categoryColors[category] }}>
                                 <span className={styles.dot} style={{ backgroundColor: categoryColors[category] }}></span>
                                 {category}
                             </div>
                         ))}
                          <div className={styles.nick}>
-                            <p>Nickname : {artist.nickname}</p>
+                            <p>{artist.nickname}</p>
                         </div>
                         <div className={styles.description}>
                             <p>{artist.description}</p>
                         </div>
                         <div className={styles.actions}>
                         <button className={styles.buttonAgen} onClick={openWhatsAppChat}>Agendar Cita</button>
+                        <a href={artist.instagram} target="_blank" rel="noopener noreferrer">
+                                <Image
+                                    src="https://www.aesthetx.com/wp-content/uploads/2021/01/1200px-Instagram_logo_2016.svg-1-min-300x300.png"
+                                    alt="Instagram"
+                                    width={50}
+                                    height={50}
+                                    className={styles.ig}
+                                />
+                            </a>
                         </div>
 </div>
 </div>
 
       <div className={styles.tattoo_images}>
-      <h1> PORTAFOLIO</h1>
+      <h1> Portafolio</h1>
       
         {artist && artist.posts && artist.posts.map((tattoo, index) => (
           <Image className={styles.tattooimg} key={index} src={tattoo.image } alt={`Tatuaje ${index + 1}`} width="400" height="400" />
