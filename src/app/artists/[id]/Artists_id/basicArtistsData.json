@@ -1,0 +1,238 @@
+{
+    "artists":[
+        {
+            "id": 1,
+            "name": "George Rosas",
+            "nickname": "Cry in ink",
+            "description": "Geroge Rosas es un tatuador de Tunja, Colombia. Ha estado tatuando por 5 años y se especializa en neotradicional y color. Actualmente trabaja en SacrisInk Tattoo Studio en Tunja, Colombia.",
+            "profilePicture": "https://i.imgur.com/5Z9X9Xm.jpg",
+            "instagram": "https://www.instagram.com/cry_in_ink_tattoo/",
+            "categories": [
+                "Color",
+                "Neotradicional",
+                "Anime"
+            ],
+            "posts":[
+                {
+                    "id": 1,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rosas/02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcm9zYXMvMDIuanBnIiwiaWF0IjoxNjk0Mjk5OTYxLCJleHAiOjE3MjU4MzU5NjF9.xZ3Pj_nmNGQCBhTdomf4IsP-WoQMpYocrhHPqzRZ6jw&t=2023-09-09T22%3A52%3A41.277Z"
+                },
+                {
+                    "id": 2,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rosas/03.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcm9zYXMvMDMuanBnIiwiaWF0IjoxNjk0Mjk5OTczLCJleHAiOjE3MjU4MzU5NzN9.UOz4N3GGFCFW4Ds0VFTWMBWbry07BUo5Q3RgZdsDi-4&t=2023-09-09T22%3A52%3A53.403Z"
+                },
+                {
+                    "id": 3,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rosas/04.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcm9zYXMvMDQuanBnIiwiaWF0IjoxNjk0Mjk5OTgxLCJleHAiOjE3MjU4MzU5ODF9.-PZOITF9tdoVgdtxi6neNWQJh0IHYRJTJKiNOnq0U5k&t=2023-09-09T22%3A53%3A01.284Z"
+                },
+                {
+                    "id": 4,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rosas/05.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcm9zYXMvMDUuanBnIiwiaWF0IjoxNjk0Mjk5OTk0LCJleHAiOjE3MjU4MzU5OTR9.YMKRonG5BBzSxJM7wCza4mHUTxujqZeZIB3iDGZylkA&t=2023-09-09T22%3A53%3A13.797Z"
+                },
+                {
+                    "id": 5,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rosas/06.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcm9zYXMvMDYuanBnIiwiaWF0IjoxNjk0MzAwMTE5LCJleHAiOjE3MjU4MzYxMTl9.f4UHqg7FY9eyd8JZEkjnlHQrjwkCuM9KGAg6w2dTDgI&t=2023-09-09T22%3A55%3A19.433Z"
+                },
+                {
+                    "id": 6,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rosas/07.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcm9zYXMvMDcuanBnIiwiaWF0IjoxNjk0MzAwMTUwLCJleHAiOjE3MjU4MzYxNTB9.T4xsCyvPSGh2Zpgomhp9K_PDj1uh97_hFJeSt42XYO4&t=2023-09-09T22%3A55%3A49.823Z"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "David Castro",
+            "nickname": "Aperador Tattoo",
+            "description": "David Castro es un tatuador de Tunja, Colombia. Ha estado tatuando por 5 años y se especializa en blackwork y freehand. Actualmente trabaja en SacrisInk Tattoo Studio en Tunja, Colombia.",
+            "profilePicture": "https://i.imgur.com/5Z9X9Xm.jpg",
+            "instagram": "https://www.instagram.com/aperador_tattoo/",
+            "categories": [
+                "Blackwork",
+                "Freehand",
+                "Sombras"
+            ],
+            "posts":[
+                {
+                    "id": 1,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/aperador/02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvYXBlcmFkb3IvMDIuanBnIiwiaWF0IjoxNjk0MzAwMTY2LCJleHAiOjE3MjU4MzYxNjZ9.bPeYA228bFjZk9LX80u_JHz-CpWTIYrc7sBD772UPoc&t=2023-09-09T22%3A56%3A05.816Z"
+                },
+                {
+                    "id": 2,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/aperador/03.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvYXBlcmFkb3IvMDMuanBnIiwiaWF0IjoxNjk0MzAwMTc5LCJleHAiOjE3MjU4MzYxNzl9.atWoiOcuznnXvPNwYXgRJNsf8pkQgOGiCCWTRUaiqLY&t=2023-09-09T22%3A56%3A19.361Z"
+                },
+                {
+                    "id": 3,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/aperador/04.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvYXBlcmFkb3IvMDQuanBnIiwiaWF0IjoxNjk0MzAwMTkyLCJleHAiOjE3MjU4MzYxOTJ9.Vu-r1CTTizmpLsbPRxRjkqZcSPBerugb2_hwIbuaCcI&t=2023-09-09T22%3A56%3A32.135Z"
+                },
+                {
+                    "id": 4,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/aperador/05.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvYXBlcmFkb3IvMDUuanBnIiwiaWF0IjoxNjk0MzAwMjA0LCJleHAiOjE3MjU4MzYyMDR9.Q95VDAGOTrGxL8aMXag9adzezfFQBCG3GweFw8HAA9w&t=2023-09-09T22%3A56%3A43.675Z"
+                },
+                {
+                    "id": 5,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/aperador/06.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvYXBlcmFkb3IvMDYuanBnIiwiaWF0IjoxNjk0MzAwMjE2LCJleHAiOjE3MjU4MzYyMTZ9.1ZHo8a_Kwiv2H2rjOKnEDly-lDnSYn2avcTVPYq1lng&t=2023-09-09T22%3A56%3A55.857Z"
+                },
+                {
+                    "id": 6,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/aperador/07.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvYXBlcmFkb3IvMDcuanBnIiwiaWF0IjoxNjk0MzAwMjI3LCJleHAiOjE3MjU4MzYyMjd9.PV9GHGM1wLyfjngzU8LUFKFhsFX6qqVuKDneGMcFeHg&t=2023-09-09T22%3A57%3A07.508Z"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Cristian Rico",
+            "nickname": "Rico Art",
+            "description": "Cristian Rico es un tatuador de Tunja, Colombia. Ha estado tatuando por 5 años y se especializa en blackwork y minimalismo. Actualmente trabaja en SacrisInk Tattoo Studio en Tunja, Colombia.",
+            "profilePicture": "https://i.imgur.com/5Z9X9Xm.jpg",
+            "instagram": "https://www.instagram.com/rico_artattoo/",
+            "categories": [
+                "Blackwork",
+                "Minimalismo",
+                "Sombras"
+            ],
+            "posts":[
+                {
+                    "id": 1,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rico/02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcmljby8wMi5qcGciLCJpYXQiOjE2OTQzMDAyNzgsImV4cCI6MTcyNTgzNjI3OH0.OzNDOamc1TLe0QB2VBNizDU7Edlid9_Vr8Gsjpr8gL0&t=2023-09-09T22%3A57%3A58.439Z"
+                },
+                {
+                    "id": 2,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rico/03.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcmljby8wMy5qcGciLCJpYXQiOjE2OTQzMDAyNTMsImV4cCI6MTcyNTgzNjI1M30.nXLRcXPez_zH5qITIOvE3HaPMbWNUpQy9FHQUxrnQ0E&t=2023-09-09T22%3A57%3A33.335Z"
+                },
+                {
+                    "id": 3,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rico/04.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcmljby8wNC5qcGciLCJpYXQiOjE2OTQzMDAyNjIsImV4cCI6MTcyNTgzNjI2Mn0.yVjVqhP2SYKQlTZdRKQmflSOE9ubWKqFQAvCuzygPFo&t=2023-09-09T22%3A57%3A42.061Z"
+                },
+                {
+                    "id": 4,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rico/05.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcmljby8wNS5qcGciLCJpYXQiOjE2OTQzMDAyOTEsImV4cCI6MTcyNTgzNjI5MX0.2jCV3Foftd6o1ZoZ6putvnA_1Hf9SAaX-VTl3NT_-No&t=2023-09-09T22%3A58%3A11.356Z"
+                },
+                {
+                    "id": 5,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rico/06.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcmljby8wNi5qcGciLCJpYXQiOjE2OTQzMDAzMDYsImV4cCI6MTcyNTgzNjMwNn0.mPvAoMZ_6hcrQcqm9lhMZuie4-y72ELRp1qcPdkLSn0&t=2023-09-09T22%3A58%3A25.625Z"
+                },
+                {
+                    "id": 6,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/rico/07.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvcmljby8wNy5qcGciLCJpYXQiOjE2OTQzMDAzMjYsImV4cCI6MTcyNTgzNjMyNn0.mnMiCjCkB3lafdwMryoqoshong0eAwBpvkAkNL-4-lk&t=2023-09-09T22%3A58%3A46.300Z"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Daniela Vallejo",
+            "nickname": "Vallejo Ink",
+            "description": "Daniela Vallejo es una tatuadora de Tunja, Colombia. Ha estado tatuando por 5 años y se especializa en minimalismo y color. Actualmente trabaja en SacrisInk Tattoo Studio en Tunja, Colombia.",
+            "profilePicture": "https://i.imgur.com/5Z9X9Xm.jpg",
+            "instagram": "https://www.instagram.com/vallejo.ink_/",
+            "categories": [
+                "Color",
+                "Minimalismo",
+                "Cartoon"
+            ],
+            "posts":[
+                {
+                    "id": 1,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/vallejo/02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvdmFsbGVqby8wMi5qcGciLCJpYXQiOjE2OTQzMDAzNTIsImV4cCI6MTcyNTgzNjM1Mn0.tvpYKQvWQJ48Tlop_9Pjya08kpc87GzwyXSSwLmfeVE&t=2023-09-09T22%3A59%3A12.111Z"
+                },
+                {
+                    "id": 2,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/vallejo/03.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvdmFsbGVqby8wMy5qcGciLCJpYXQiOjE2OTQzMDAzNjUsImV4cCI6MTcyNTgzNjM2NX0.hE6UQWs2TXQGR9RQ37eAeOToWT3U4QiJLGIVVKL8SQc&t=2023-09-09T22%3A59%3A24.617Z"
+                },
+                {
+                    "id": 3,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/vallejo/04.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvdmFsbGVqby8wNC5qcGciLCJpYXQiOjE2OTQzMDAzNzYsImV4cCI6MTcyNTgzNjM3Nn0.zhwsfPyAQJ-IA0hEb9uoQyA00KQ5UjE8K06eC2SP-6s&t=2023-09-09T22%3A59%3A36.135Z"
+                },
+                {
+                    "id": 4,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/vallejo/05.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvdmFsbGVqby8wNS5qcGciLCJpYXQiOjE2OTQzMDAzODYsImV4cCI6MTcyNTgzNjM4Nn0.rgWuWr3K5_U3F89Y5Cvs7MnbgKej2RVXZ0LE7gLySFU&t=2023-09-09T22%3A59%3A45.762Z"
+                },
+                {
+                    "id": 5,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/vallejo/06.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvdmFsbGVqby8wNi5qcGciLCJpYXQiOjE2OTQzMDAzOTYsImV4cCI6MTcyNTgzNjM5Nn0.q4OrVRz4JIfgH7vYyZyQKJDzd5PNb-XjkQGQ5vFnugc&t=2023-09-09T22%3A59%3A56.228Z"
+                },
+                {
+                    "id": 6,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/vallejo/07.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvdmFsbGVqby8wNy5qcGciLCJpYXQiOjE2OTQzMDA0MDgsImV4cCI6MTcyNTgzNjQwOH0.rfRykQ4247WlDsL0R0dUGlEqWbe_yw7YpnC9gH6hs0k&t=2023-09-09T23%3A00%3A07.640Z"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Jefer Estigma",
+            "nickname": "Jefer Estigma",
+            "description": "Jefer Estigma es un tatuador de Tunja, Colombia. Ha estado tatuando por 5 años y se especializa en realismo y color. Actualmente trabaja en SacrisInk Tattoo Studio en Tunja, Colombia.",
+            "profilePicture": "https://i.imgur.com/5Z9X9Xm.jpg",
+            "instagram": "https://www.instagram.com/jeferestigma/",
+            "categories": [
+                "Blackwork",
+                "Color",
+                "Realismo"
+            ],
+            "posts":[
+                {
+                    "id": 1,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/stigma/02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvc3RpZ21hLzAyLmpwZyIsImlhdCI6MTY5NDMwMDQzNCwiZXhwIjoxNzI1ODM2NDM0fQ.Ru87V29s06LQYJHcLpuReY4Kr8K42SzXrdi7yFJOC08&t=2023-09-09T23%3A00%3A33.980Z"
+                },
+                {
+                    "id": 2,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/stigma/03.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvc3RpZ21hLzAzLmpwZyIsImlhdCI6MTY5NDMwMDQ0NCwiZXhwIjoxNzI1ODM2NDQ0fQ.-lcGX7ndRzyLXdY-fOWaa2wDBcuAmvMxhDVylGqek3M&t=2023-09-09T23%3A00%3A43.618Z"
+                },
+                {
+                    "id": 3,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/stigma/04.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvc3RpZ21hLzA0LmpwZyIsImlhdCI6MTY5NDMwMDQ1MywiZXhwIjoxNzI1ODM2NDUzfQ.jc9ng-Gqelr_zCAUx_ggYfLjVInsbbUTOLum4Pghcbc&t=2023-09-09T23%3A00%3A53.081Z"
+                },
+                {
+                    "id": 4,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/stigma/05.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvc3RpZ21hLzA1LmpwZyIsImlhdCI6MTY5NDMwMDQ2MiwiZXhwIjoxNzI1ODM2NDYyfQ.DzAbNJ4bO2QHqGX_NOR4gn-3CTO4PBDka9XNmOkYotI&t=2023-09-09T23%3A01%3A01.800Z"
+                },
+                {
+                    "id": 5,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/stigma/06.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvc3RpZ21hLzA2LmpwZyIsImlhdCI6MTY5NDMwMDQ4MSwiZXhwIjoxNzI1ODM2NDgxfQ.vzCfmfv0AHwwB1jeFbcnCoHo_d-KfiB5SHQLPbDDfnQ&t=2023-09-09T23%3A01%3A21.366Z"
+                },
+                {
+                    "id": 6,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/stigma/07.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2Uvc3RpZ21hLzA3LmpwZyIsImlhdCI6MTY5NDMwMDQ5MCwiZXhwIjoxNzI1ODM2NDkwfQ.TgDn0uTOvLEmodnolHNC3tm4n_cY9utCpTaiwT7w8G8&t=2023-09-09T23%3A01%3A30.461Z"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Freddy Chaparro",
+            "nickname": "Fred Chaparro",
+            "description": "Freddy Chaparro es un tatuador de Tunja, Colombia. Ha estado tatuando por 5 años y se especializa en surrealismo y black and grey. Actualmente trabaja en SacrisInk Tattoo Studio en Tunja, Colombia.",
+            "profilePicture": "https://i.imgur.com/5Z9X9Xm.jpg",
+            "instagram": "https://www.instagram.com/fred_chaparro_tattoo",
+            "categories": [
+                "Blackwork",
+                "Surrealismo",
+                "Black and grey"
+            ],
+            "posts":[
+                {
+                    "id": 1,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/fred/02.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvZnJlZC8wMi5qcGciLCJpYXQiOjE2OTQzMDA1MjEsImV4cCI6MTcyNTgzNjUyMX0.OU-c9QLH9KWhnW4ejUny1mh5GbSd96UAUdEExIeVKL0&t=2023-09-09T23%3A02%3A01.265Z"
+                },
+                {
+                    "id": 2,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/fred/03.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvZnJlZC8wMy5qcGciLCJpYXQiOjE2OTQzMDA1MzcsImV4cCI6MTcyNTgzNjUzN30.sI7YDTYdt85mUzOWgLovEYm7xF2u-FV_AnM15pP7XSw&t=2023-09-09T23%3A02%3A16.806Z"
+                },
+                {
+                    "id": 3,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/fred/04.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvZnJlZC8wNC5qcGciLCJpYXQiOjE2OTQzMDA1NDcsImV4cCI6MTcyNTgzNjU0N30.48_EbsM8RXj_kEz4J6RFS86K0x3w1Ibm6xulRsbHEP0&t=2023-09-09T23%3A02%3A27.233Z"
+                },
+                {
+                    "id": 4,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/fred/05.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvZnJlZC8wNS5qcGciLCJpYXQiOjE2OTQzMDA1NTUsImV4cCI6MTcyNTgzNjU1NX0.eyqlvEMSHN9EGLl6D863J_QBVG6SuYk_AoSVqnTrw18&t=2023-09-09T23%3A02%3A35.356Z"
+                },
+                {
+                    "id": 5,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/fred/06.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvZnJlZC8wNi5qcGciLCJpYXQiOjE2OTQzMDA1NjUsImV4cCI6MTcyNTgzNjU2NX0.Jbfbr0Vkx2-1JI5_Qrny6n6FQrhydrOf6s8g0xovlPQ&t=2023-09-09T23%3A02%3A45.525Z"
+                },
+                {
+                    "id": 6,
+                    "image": "https://hmnhiomzwpccvhzlgahm.supabase.co/storage/v1/object/sign/landing-page/fred/07.jpg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsYW5kaW5nLXBhZ2UvZnJlZC8wNy5qcGciLCJpYXQiOjE2OTQzMDA1NzUsImV4cCI6MTcyNTgzNjU3NX0.trCklw8OlKn0O9Fa7x3dPl8E7iQn7nEtGWld7lYXIDY&t=2023-09-09T23%3A02%3A54.747Z"
+                }
+            ]
+        }
+    ]
+}

@@ -3,6 +3,7 @@ import React from "react";
 import styles from './styles.module.css'
 import Image from "next/image";
 import jsonData from './artists.json';
+import Link from "next/link";
 
 const Artists = () => {
     const artistsData = jsonData;
@@ -62,7 +63,7 @@ const Artists = () => {
                             <p>{artist.description}</p>
                         </div>
                         <div className={styles.actions}>
-                            <button className={styles.buttonPor}>Ver Portafolio</button>
+                        <Link href={`artists/${artist.id}`} ><button className={styles.buttonPor}>Ver Portafolio</button></Link>
                             <button className={styles.buttonAgen}>Agendar Cita</button>
                         </div>
                     </div>
