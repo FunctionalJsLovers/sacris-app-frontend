@@ -34,7 +34,6 @@
     }
     .container {
       background-image: url("sep09.jpg");
-      background-attachment: fixed;
       background-size: cover; 
       justify-content: center;
       display: flex;

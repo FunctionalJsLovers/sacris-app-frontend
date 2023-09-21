@@ -18,7 +18,7 @@ async function Page() {
 
 
       <div className={styles.bannerText} >
-        <h1>SacrisShop</h1>
+        <h1>SacriShop</h1>
         <p>Estos son algunos de los productos que podrás adquirir en nuestras instalaciones.</p>
     </div>
     <div className={styles.container}>
