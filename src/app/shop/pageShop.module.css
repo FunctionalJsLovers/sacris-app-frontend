@@ -1,0 +1,59 @@
+
+  .all{
+    background-image: url("local.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .picture{
+    height: 400px;
+  }
+  
+  .bannerText {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    padding: 20px;
+    font-size: 48px; 
+
+  }
+    
+    .bannerText h1 {
+      color: #C72424;
+      text-shadow: 0 0 10px #FCB70B;
+      font-family: var(--font), sans-serif;
+
+    }
+    .bannerText p {
+      font-size: 30px;
+      color: white;
+      font-family: var(--font), sans-serif;
+
+    }
+    .container {
+      background-image: url("sep09.jpg");
+      background-size: cover; 
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); 
+
+      
+    }
+
+    @media (max-width: 768px){      
+      .container {
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); 
+    }
+
+    .bannerText{
+      position: relative;
+    }
+    
+    }
+
+

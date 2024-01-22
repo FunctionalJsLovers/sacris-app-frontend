@@ -1,0 +1,147 @@
+.addressSection {
+    text-align: center;
+    padding: 20px;
+    background-image: url("https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg?w=826&t=st=1693887304~exp=1693887904~hmac=a2f60d99f4fcb5e3d6558ad80cc5f0d3b00a99eeee7b56c1a2b5e439e09fc4a9");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sectionTitle {
+    font-family: var(--font), sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    color: #FCB70B;
+}
+
+.addressContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.mapContainer {
+    flex: 1;
+    max-width: 50%;
+    position: relative;
+    left: 100px;
+    margin-right: 20px;
+}
+
+.mapImage img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.addressInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    bottom: 35px;
+    left: 250px;
+}
+
+.addressInfo h3 {
+    font-family: var(--font), sans-serif;
+    font-size: 40px;
+    color: #FCB70B;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.addressInfo p {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 25px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.address,
+.hours {
+    margin-bottom: 20px;
+}
+
+.h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.p {
+    font-size: 16px;
+    margin: 0;
+    color:#FFFFFF;
+}
+
+@media screen and (max-width: 850px) {
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    .mapContainer {
+        position: relative;
+        flex: 1;
+        max-width: none;
+        min-width: 300px;
+        margin: 0 auto;
+        left: 10%;
+    }
+
+    .addressInfo {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        order: 1;
+        bottom: 38px;
+        left: 20%;
+    }
+
+    .addressInfo h3 {
+        font-size: 1.5rem;
+    }
+
+    .addressInfo p {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    .addressContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapContainer {
+        position: relative;
+        flex: 1;
+        max-width: none;
+        min-width: 300px;
+        margin: 0 auto;
+        left: 1%;
+    }
+
+    .addressInfo {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        order: 1;
+        top: 15px;
+        left: 5%;
+    }
+
+    .addressInfo h3 {
+        font-size: 1.5rem;
+    }
+
+    .addressInfo p {
+        font-size: 1.2rem;
+    }
+}
